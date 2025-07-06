@@ -30,7 +30,3 @@
     "node": ">=18.0.0"
   }
 }
-EOF
-
-# Create directories
-mkdir -p src/{commands,services,models,utils,config} scripts logs
