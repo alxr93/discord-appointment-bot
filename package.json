@@ -5,28 +5,20 @@
   "main": "src/bot.js",
   "scripts": {
     "start": "node src/bot.js",
-    "dev": "nodemon src/bot.js",
-    "test": "jest",
-    "deploy": "node scripts/deploy-commands.js"
+    "postinstall": "echo 'Installation complete'"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1",
     "node-cron": "^3.0.3",
-    "puppeteer": "^21.5.2",
+    "puppeteer": "^22.0.0",
     "crypto-js": "^4.2.0",
     "pg": "^8.11.3",
     "sequelize": "^6.35.1",
     "axios": "^1.6.2",
     "winston": "^3.11.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.2",
-    "jest": "^29.7.0",
-    "eslint": "^8.56.0",
-    "prettier": "^3.1.1"
-  },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18"
   }
 }
